@@ -1,12 +1,12 @@
 version = "1.0.0" // Plugin version. Increment this to trigger an update
-description = "My first Kotlin plugin!" // Plugin description that will be shown to user
+description = "Adds a /petpet slash command to create headpat GIFs from an image"
 
 aliucord {
     // Changelog of your plugin
     changelog.set(
         """
         # 1.0.0
-        * Initial plugin release!
+        * Initial release.
         """.trimIndent(),
     )
     // Image or Gif that will be shown at the top of your changelog page
