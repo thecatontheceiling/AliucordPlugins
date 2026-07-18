@@ -18,7 +18,7 @@ aliucord {
 
     // Excludes this plugin from publishing and global plugin repositories.
     // Set this to false if the plugin is unfinished
-    deploy.set(false)
+    deploy.set(true)
 
     // Builds and deploys this plugin but excludes it from global plugin repositories.
     // Set this if the plugin has reached EOL but a last update should still occur.
